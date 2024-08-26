@@ -1,0 +1,48 @@
+html {
+  min-height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 163, 95);
+  font-family: "Courier New", Courier, monospace;
+}
+header {
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 10px;
+  gap: 1rem;
+  background-color: darkolivegreen;
+  color: white;
+}
+
+header nav ul li:hover {
+  cursor: pointer;
+  color: cyan;
+  background-color: darkgreen;
+}
+
+main {
+  background-color: rgb(0, 140, 95);
+}
+main article {
+  display: flex;
+  width: 25%;
+  overflow-y: scroll;
+  max-height: 50px;
+  background-color: greenyellow;
+}
+main table {
+  border: dotted 5px black;
+  background-color: lime;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(0, 120, 95);
+  margin-bottom: 0;
+}
